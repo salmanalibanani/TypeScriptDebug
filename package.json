@@ -1,21 +1,15 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simplest setup to debug TypeScript projects",
   "scripts": {
     "build": "tsc --noEmit",
-    "build:w": "tsc --noEmit --watch",
-    "test": "jest --runInBand",
-    "test:ci": "npm test -- --ci --detectOpenHandles --watchAll=false"
+    "build:w": "tsc --noEmit --watch"
   },
   "engines": {
     "node": ">=14.0.0",
     "npm": ">=7.0.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "ts-node": "^10.4.0",
     "tsconfig-paths": "^3.12.0",
